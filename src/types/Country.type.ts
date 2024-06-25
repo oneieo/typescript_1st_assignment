@@ -1,7 +1,5 @@
 export type Country = {
-  flag: string;
+  flags: string;
   name: string;
   capital: string[];
 };
-
-export let countries: Country[] = [];
