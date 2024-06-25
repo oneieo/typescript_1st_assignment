@@ -1,5 +1,9 @@
 export type Country = {
-  flags: string;
-  name: string;
+  flags: {
+    png: string;
+  };
+  name: {
+    common: string;
+  };
   capital: string[];
 };
