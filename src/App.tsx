@@ -1,12 +1,12 @@
-import { useEffect } from "react";
-import { fetchCountries } from "./api/countries.api.js";
 import "./App.css";
+import CountryList from "./components/CountryList";
 
 function App() {
-  useEffect(() => {
-    fetchCountries();
-  }, []);
-  return <></>;
+  return (
+    <>
+      <CountryList />
+    </>
+  );
 }
 
 export default App;
