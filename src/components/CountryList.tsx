@@ -14,7 +14,7 @@ const CountryList = () => {
   }, []);
   return (
     <>
-      <CountryCard countries={countries} />
+      <CountryCard countries={countries} setCountries={setCountries} />
     </>
   );
 };
